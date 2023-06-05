@@ -84,7 +84,6 @@ int main()
     
         for(int i=0;i<tamanho;i++){
             vet[i] = rand() % 9999;
-            //printf("%d ",vet[i]);
         }
         
         double time_spent = 0.0;
