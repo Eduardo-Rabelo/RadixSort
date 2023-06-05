@@ -1,5 +1,5 @@
 # RadixSort
-Exwmplo de \textit{Radix Sort} em c.
+Exemplo de Radix <b>Sort<\b> em c.
 
 # Compilação e Execução
 
