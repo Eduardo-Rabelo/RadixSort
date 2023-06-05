@@ -73,9 +73,7 @@ int main()
 {
     srand (time(NULL));
     int tamanho=1000000;
-    /*
-    printf("Tamanho: ");
-    scanf("%d",&tamanho);*/
+    
     
     int vet[tamanho]; 
     
@@ -99,18 +97,11 @@ int main()
     	totalr+=time_spent;
     	printf("\n\nTempo Gasto radixSort: %lf", time_spent);
         
-        /*printf("\n\nVetor ordenado:\n");
-        for (int i = 0; i < tamanho; i++)
-        printf("%d " ,vet[i]);
-        
-        int arr[] = { 10, 7, 8, 9, 1, 5 };
-        int N = sizeof(arr) / sizeof(arr[0]);
-        printf("\n\nN: %d",N);*/
+       
         
         
         for(int i=0;i<tamanho;i++){
             vet[i] =  rand() % 9999;
-          //  printf("%d ",vet[i]);
         }
         
         time_spent = 0.0;
@@ -123,9 +114,7 @@ int main()
     	totalq+=time_spent;
     	printf("\n\nTempo Gasto quickSort: %lf", time_spent);
     	
-    /*	printf("\n\nVetor ordenado:\n");
-        for (int i = 0; i < tamanho; i++)
-        printf("%d " ,vet[i]);*/
+    
     }
     
     printf("\n\nTempo Total Gasto radixSort: %lf", totalr);
