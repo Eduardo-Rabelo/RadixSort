@@ -1,5 +1,5 @@
 # RadixSort
-Exemplo de <b> Radix Sort</b> em c.
+Exemplo de <i> Radix Sort</i> em c.
 
 # Compilação e Execução
 
